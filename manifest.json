@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "chromeos daily wallpaper",
+	"description": "this extension sets the chromeos wallpaper daily to bing's image of the day",
+	"version": "1.0",
+	"permissions": [
+		"wallpaper",
+		"http://*.bing.com/"
+	],
+	"browser_action": {
+		"default_title": "chromeos daily wallpaper",
+		"default_icon": "icon.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
