@@ -6,13 +6,15 @@
 	"version": "1.0",
 	"permissions": [
 		"wallpaper",
-		"http://*.bing.com/"
+		"alarms",
+		"*://*.bing.com/*"
 	],
 	"browser_action": {
 		"default_title": "chromeos daily wallpaper",
 		"default_icon": "icon.png"
 	},
 	"background": {
+		"persistant": false,
 		"scripts": ["background.js"]
 	}
 }
