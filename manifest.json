@@ -12,7 +12,10 @@
 		"http://www.bing.com/*"
 	],
 	"icons": {
-		"512": "icon.png"
+		"16": "imgs/icon16.png",
+		"48": "imgs/icon48.png",
+		"128": "imgs/icon128.png",
+		"512": "imgs/icon512.png"
 	},
 	"background": {
 		"persistant": false,
