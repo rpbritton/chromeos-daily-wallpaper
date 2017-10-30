@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Daily Wallpaper from Bing (for ChromeOS)",
-	"description": "Sets the wallpaper to Bing's image of the day in ChromeOS.",
+	"description": "Sets your wallpaper in ChromeOS to Bing's image of the day.",
 	"homepage_url": "https://www.google.com",
 	"version": "1.0",
 	"permissions": [
@@ -9,7 +9,7 @@
 		"alarms",
 		"contextMenus",
 		"storage",
-		"*://*.bing.com/*"
+		"http://www.bing.com/*"
 	],
 	"icons": {
 		"512": "icon.png"

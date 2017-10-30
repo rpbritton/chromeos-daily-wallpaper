@@ -63,7 +63,6 @@ chrome.runtime.getPlatformInfo(platformInfo => {
 
 function getWallpaper() {
 	chrome.storage.local.get('location', location => {
-		console.log(location.location);
 		new Promise((resolve, reject) => {
 			let request = new XMLHttpRequest();
 			request.onload = function() {
