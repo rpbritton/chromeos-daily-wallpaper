@@ -36,6 +36,7 @@ chrome.contextMenus.create({
 		});
 	}
 });
+
 chrome.contextMenus.onClicked.addListener(contextMenu => {
 	(contextMenu.menuItemId == 'refresh') && getWallpaper();
 	if (contextMenu.parentMenuItemId == 'location') {
