@@ -9,7 +9,7 @@
 		"alarms",
 		"contextMenus",
 		"storage",
-		"http://www.bing.com/*"
+		"*://*.bing.com/*"
 	],
 	"icons": {
 		"16": "imgs/icon16.png",
